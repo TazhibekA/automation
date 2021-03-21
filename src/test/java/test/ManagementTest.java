@@ -21,7 +21,7 @@ public class ManagementTest extends CommonConditions{
 
     @Test
     public void checkVMClass(){
-        Assert.assertTrue(driver.findElement(By.xpath("//*[@id=\"compute\"]/md-list/md-list-item[2]/div")).getText().contains("VM class: regular"));
+        Assert.assertTrue(driver.findElement(By.xpath("//*[@id=\"compute\"]/md-list/md-list-item[2]/div")).getText().contains("VM class: regular1"));
     }
 
     @Test
