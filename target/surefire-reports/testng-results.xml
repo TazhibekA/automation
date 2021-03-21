@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="118185" started-at="2021-03-21T04:56:00Z" finished-at="2021-03-21T04:57:58Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="118185" started-at="2021-03-21T04:56:00Z" finished-at="2021-03-21T04:57:58Z">
+      <class name="test.ManagementTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.ManagementTest@2d554825]" name="setUp" is-config="true" duration-ms="1792" started-at="2021-03-21T04:56:00Z" finished-at="2021-03-21T04:56:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="canFillOut()[pri:0, instance:test.ManagementTest@2d554825]" name="canFillOut" is-config="true" duration-ms="21978" started-at="2021-03-21T04:56:01Z" finished-at="2021-03-21T04:56:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canFillOut -->
+        <test-method status="PASS" signature="checkCommitmentTerm()[pri:0, instance:test.ManagementTest@2d554825]" name="checkCommitmentTerm" duration-ms="30" started-at="2021-03-21T04:56:23Z" finished-at="2021-03-21T04:56:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCommitmentTerm -->
+        <test-method status="PASS" signature="stopBrowser(org.testng.ITestResult)[pri:0, instance:test.ManagementTest@2d554825]" name="stopBrowser" is-config="true" duration-ms="590" started-at="2021-03-21T04:56:23Z" finished-at="2021-03-21T04:56:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkCommitmentTerm status=SUCCESS method=ManagementTest.checkCommitmentTerm()[pri:0, instance:test.ManagementTest@2d554825] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.ManagementTest@2d554825]" name="setUp" is-config="true" duration-ms="1065" started-at="2021-03-21T04:56:24Z" finished-at="2021-03-21T04:56:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="canFillOut()[pri:0, instance:test.ManagementTest@2d554825]" name="canFillOut" is-config="true" duration-ms="19969" started-at="2021-03-21T04:56:25Z" finished-at="2021-03-21T04:56:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canFillOut -->
+        <test-method status="PASS" signature="checkInstanceType()[pri:0, instance:test.ManagementTest@2d554825]" name="checkInstanceType" duration-ms="30" started-at="2021-03-21T04:56:45Z" finished-at="2021-03-21T04:56:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInstanceType -->
+        <test-method status="PASS" signature="stopBrowser(org.testng.ITestResult)[pri:0, instance:test.ManagementTest@2d554825]" name="stopBrowser" is-config="true" duration-ms="589" started-at="2021-03-21T04:56:45Z" finished-at="2021-03-21T04:56:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkInstanceType status=SUCCESS method=ManagementTest.checkInstanceType()[pri:0, instance:test.ManagementTest@2d554825] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.ManagementTest@2d554825]" name="setUp" is-config="true" duration-ms="1078" started-at="2021-03-21T04:56:46Z" finished-at="2021-03-21T04:56:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="canFillOut()[pri:0, instance:test.ManagementTest@2d554825]" name="canFillOut" is-config="true" duration-ms="22597" started-at="2021-03-21T04:56:47Z" finished-at="2021-03-21T04:57:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canFillOut -->
+        <test-method status="PASS" signature="checkRegion()[pri:0, instance:test.ManagementTest@2d554825]" name="checkRegion" duration-ms="32" started-at="2021-03-21T04:57:09Z" finished-at="2021-03-21T04:57:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRegion -->
+        <test-method status="PASS" signature="stopBrowser(org.testng.ITestResult)[pri:0, instance:test.ManagementTest@2d554825]" name="stopBrowser" is-config="true" duration-ms="591" started-at="2021-03-21T04:57:09Z" finished-at="2021-03-21T04:57:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkRegion status=SUCCESS method=ManagementTest.checkRegion()[pri:0, instance:test.ManagementTest@2d554825] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.ManagementTest@2d554825]" name="setUp" is-config="true" duration-ms="1049" started-at="2021-03-21T04:57:10Z" finished-at="2021-03-21T04:57:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="canFillOut()[pri:0, instance:test.ManagementTest@2d554825]" name="canFillOut" is-config="true" duration-ms="19933" started-at="2021-03-21T04:57:11Z" finished-at="2021-03-21T04:57:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canFillOut -->
+        <test-method status="PASS" signature="checkVMClass()[pri:0, instance:test.ManagementTest@2d554825]" name="checkVMClass" duration-ms="36" started-at="2021-03-21T04:57:31Z" finished-at="2021-03-21T04:57:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkVMClass -->
+        <test-method status="PASS" signature="stopBrowser(org.testng.ITestResult)[pri:0, instance:test.ManagementTest@2d554825]" name="stopBrowser" is-config="true" duration-ms="594" started-at="2021-03-21T04:57:31Z" finished-at="2021-03-21T04:57:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkVMClass status=SUCCESS method=ManagementTest.checkVMClass()[pri:0, instance:test.ManagementTest@2d554825] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- test.ManagementTest -->
+      <class name="test.SearchManagementTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.SearchManagementTest@68837a77]" name="setUp" is-config="true" duration-ms="1061" started-at="2021-03-21T04:57:31Z" finished-at="2021-03-21T04:57:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="canChooseInSearchList()[pri:0, instance:test.SearchManagementTest@68837a77]" name="canChooseInSearchList" duration-ms="13860" started-at="2021-03-21T04:57:33Z" finished-at="2021-03-21T04:57:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canChooseInSearchList -->
+        <test-method status="PASS" signature="stopBrowser(org.testng.ITestResult)[pri:0, instance:test.SearchManagementTest@68837a77]" name="stopBrowser" is-config="true" duration-ms="607" started-at="2021-03-21T04:57:46Z" finished-at="2021-03-21T04:57:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=canChooseInSearchList status=SUCCESS method=SearchManagementTest.canChooseInSearchList()[pri:0, instance:test.SearchManagementTest@68837a77] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.SearchManagementTest@68837a77]" name="setUp" is-config="true" duration-ms="1074" started-at="2021-03-21T04:57:47Z" finished-at="2021-03-21T04:57:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="canSearch()[pri:0, instance:test.SearchManagementTest@68837a77]" name="canSearch" duration-ms="9027" started-at="2021-03-21T04:57:48Z" finished-at="2021-03-21T04:57:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canSearch -->
+        <test-method status="PASS" signature="stopBrowser(org.testng.ITestResult)[pri:0, instance:test.SearchManagementTest@68837a77]" name="stopBrowser" is-config="true" duration-ms="586" started-at="2021-03-21T04:57:57Z" finished-at="2021-03-21T04:57:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=canSearch status=SUCCESS method=SearchManagementTest.canSearch()[pri:0, instance:test.SearchManagementTest@68837a77] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- test.SearchManagementTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

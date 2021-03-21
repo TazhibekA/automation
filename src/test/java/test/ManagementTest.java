@@ -7,7 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class СalculatorManagementTests extends CommonConditions{
+public class ManagementTest extends CommonConditions{
 
     @BeforeMethod
     public void canFillOut() throws InterruptedException {
@@ -39,4 +39,3 @@ public class СalculatorManagementTests extends CommonConditions{
         Assert.assertTrue(driver.findElement(By.xpath("//*[@id=\"compute\"]/md-list/md-list-item[6]/div")).getText().contains("Commitment term: 1 Year"));
     }
 }
-

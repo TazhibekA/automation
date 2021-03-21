@@ -1,0 +1,11 @@
+service\CalculatorAppInfo.class
+service\TestDataReader.class
+test\CommonConditions.class
+test\ManagementTest.class
+driver\DriverSingleton.class
+page\EmailPage.class
+page\AbstractPage.class
+page\CalculatorPage.class
+page\SearchPage.class
+test\SearchManagementTest.class
+page\MainPage.class

@@ -32,12 +32,12 @@ public class CommonConditions {
 
     private  void captureScreenshot(ITestResult result) throws Exception {
         if(result.getStatus() == ITestResult.FAILURE || result.getStatus() == ITestResult.SKIP){
-            try {
-                File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-                FileHandler.copy(screenshot, new File("C:\\Users\\User\\Downloads\\GitHubAutomation\\src\\test\\java\\com\\epam\\ta\\screenshots\\" + timestamp() + ".png"));
-            } catch (Exception e) {
-                System.out.println("Exception while taking screenshot " + e.getMessage());
-            }
+        try {
+            File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+            FileHandler.copy(screenshot, new File("C:\\Users\\User\\Downloads\\Automation\\src\\test\\java\\screenshots\\" + timestamp() + ".png"));
+        } catch (Exception e) {
+            System.out.println("Exception while taking screenshot " + e.getMessage());
+        }
         }
     }
 
@@ -45,4 +45,3 @@ public class CommonConditions {
         return new SimpleDateFormat("yyyy-MM-dd HH-mm-ss").format(new Date());
     }
 }
-

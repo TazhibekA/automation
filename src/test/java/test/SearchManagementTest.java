@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 
 
-public class SearchManagementTests extends CommonConditions {
+public class SearchManagementTest extends CommonConditions {
     @Test
     public void canSearch(){
         SearchPage searchPage = new MainPage(driver)
