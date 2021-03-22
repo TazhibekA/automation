@@ -66,6 +66,18 @@ public class CalculatorPage extends  AbstractPage {
     @FindBy(id = "compute")
     WebElement compute;
 
+    @FindBy(id = "email_quote")
+    WebElement btnEmail;
+
+    @FindBy(xpath = "//*[@id=\"resultBlock\"]/md-card/md-card-content/div/div/div/h2/b")
+    WebElement  totalCost;
+
+    @FindBy(xpath = "//button[@aria-label=\"Send Email\"]")
+    WebElement btnSendEmail;
+
+    @FindBy(xpath = "//*[@ng-model=\"emailQuote.user.email\"]")
+    WebElement inputEmail;
+
     public CalculatorPage(WebDriver driver) {
         super(driver);
         PageFactory.initElements(this.driver, this);
@@ -146,4 +158,33 @@ public class CalculatorPage extends  AbstractPage {
             }
         }
     }
+
+    public CalculatorPage clickEmail(){
+        wait.until(ExpectedConditions.elementToBeClickable(btnEmail));
+        btnEmail.click();
+        return this;
+    }
+
+    public CalculatorPage clickSendEmail(){
+        wait.until(ExpectedConditions.elementToBeClickable(btnSendEmail));
+        btnSendEmail.click();
+        return this;
+    }
+
+    public String getTotalCost(){
+        return totalCost.getText();
+
+    }
+
+    public CalculatorPage sendByAddress(String mailAddress){
+        wait.until(ExpectedConditions.elementToBeClickable(inputEmail));
+        inputEmail.click();
+        System.out.println("++++++" + mailAddress);
+
+        inputEmail.sendKeys(mailAddress);
+        clickSendEmail();
+        return this;
+    }
+
+
 }
